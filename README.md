@@ -1,5 +1,5 @@
 # nepali-calendar-api
-A nepali calendar api conisiting of both AD and BS dates with tithi and other Nepal specific info.
+A nepali calendar api conisiting of both AD and BS dates with 'tithi' and other Nepal specific info.
 
 The api is hosted as static json file in github (inside the api folder).
 
