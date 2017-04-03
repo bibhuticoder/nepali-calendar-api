@@ -5,7 +5,7 @@ The api is hosted as static json file in github (inside the api folder).
 
 # usage
 ```javascript
-//to access the api
+//request
 var year = "calendar of this year"; //1970 to 2074
 $.ajax({
   method: "GET",
@@ -14,6 +14,26 @@ $.ajax({
     console.log(d);
   }
 });
+
+//response
+{
+  "Baisakh":[
+    {
+      "np": "31", //Date in BS
+      "en": "14", // Date in AD
+      "tithi": " तृतीया ", // nepali 'tithi'
+      "event": "टोखा चण्डेश्वरी रथयात्रा", //name of the event that day
+      "day": "sun", //day of the week
+      "specialday": false, //day with special kind of event
+      "holiday": false //National holiday
+    
+    },
+    ...,
+    ...
+  ],
+  "Jestha" :[...],
+  "..." : [...]
+}
 ```
 
 # Apps using the api
