@@ -3,7 +3,7 @@ A nepali calendar api conisiting of both AD and BS dates with tithi and other Ne
 
 The api is hosted as static json file in github (inside the api folder).
 
-#usage
+# usage
 ```javascript
 //to access the api
 var year = "calendar of this year"; //1970 to 2074
@@ -16,5 +16,5 @@ $.ajax({
 });
 ```
 
-#demo
+# demo
 https://bibhuticoder.github.io/nepali-calendar
