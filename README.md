@@ -16,5 +16,5 @@ $.ajax({
 });
 ```
 
-# demo
-https://bibhuticoder.github.io/nepali-calendar
+# Apps using the api
+- Nepali-calendar : https://bibhuticoder.github.io/nepali-calendar
