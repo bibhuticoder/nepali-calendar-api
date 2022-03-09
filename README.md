@@ -1,3 +1,6 @@
+> This remo has been deprecated. Refer to this one for new data: https://the-value-crew.github.io/nepali-calendar-api/
+
+
 # nepali-calendar-api
 A nepali calendar api conisiting of both AD and BS dates with 'tithi' and other Nepal specific info.
 
